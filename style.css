@@ -1,0 +1,148 @@
+*,*:before,*:after {
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    background-color: rgb(52, 29, 74);
+    font-family: 'Vollkorn', serif;
+    font-family: 'Yusei Magic', sans-serif;
+    color: #FFFF;
+}
+
+a{
+    color: #FFFF;
+    text-decoration: none; /*no podch*/
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    border-bottom: 1px solid #32323D;
+}
+
+.header_line{
+    border-bottom: 1px solid #32323D;
+}
+
+.header_lw{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*S mechdy blockami*/
+}
+
+.header_lng{
+
+}
+
+.header_lng a{
+    color: aliceblue;
+    font-weight: 500;
+    text-transform: uppercase; /* vse zaglav*/
+}
+
+.header_lng a.active{
+    color: #935593f9;
+}
+
+
+.header_link{
+    color: aliceblue;
+}
+
+.headertwo{
+    height: 90;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__block{
+    width: 40%;
+}
+
+.navlink{
+    margin-right: 30px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: color .2s ease;
+}
+
+.navlink:hover{
+    color: #935593f9;
+}
+
+.logo img{
+    height: 90px;
+}
+
+.header_lev{
+    display: flex;
+}
+
+.levlink{
+    margin-right: 20px;
+}
+
+div.carousel-item img {
+    width: auto;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.carousel-item p{   
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+div.carousel-item img {
+    width: auto;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.carousel-item p{   
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red-text {
+    color: red;
+}
+
+b {
+    font-size: 70px;
+}
+
+p {
+    font-size: 21px;
+}
+.btn {
+    font-size: 30px;
+}
+.bgg {
+    background-color: #935593f9;
+}
+
+.icon {
+    width: auto;
+    height: 50px;
+}
+.big_buy {
+    font-size: 30px;
+    width: 50%;
+    height: 75px;
+}
